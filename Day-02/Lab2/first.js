@@ -31,8 +31,10 @@ if(age <= 0 ) {
 
     }
     location.reload()
-
 }
 
+    
 
-//if the switch statment outside the if statment the the numbers less than 0 and the zero is accepted
+
+
+
