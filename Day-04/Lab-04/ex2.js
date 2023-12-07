@@ -24,9 +24,9 @@ function creatArr(){
     // let txt = document.createTextNode('jbakjbkj')
     // div.appendChild(txt)
     let p = document.querySelector('#res')
-    let txt =  document.createTextNode(fnArr)
-    p.appendChild(txt)
-
+    // let txt =  document.createTextNode(fnArr)
+    // p.appendChild(txt)
+    p.innerText = ` the final array is : [${fnArr}]`
 
 
 }
