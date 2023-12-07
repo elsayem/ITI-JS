@@ -1,7 +1,3 @@
-
-
-// console.log(user)
-// console.log(pass)
 let btn = document.querySelector('#loginBtn')
 
 btn.onclick = checkVal   

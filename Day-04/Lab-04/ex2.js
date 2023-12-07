@@ -14,10 +14,20 @@ function creatArr(){
     console.log(spArr2)
     console.log(finalArr)
     //using filter to remove the duplicate numbers
-    let fArr = finalArr.filter(function(el,i){
+    let fnArr = finalArr.filter(function(el,i){
         return finalArr.indexOf(el) === i
     })
-    console.log(fArr)
+    console.log(fnArr)
+
+    // let div = document.createElement('div')
+
+    // let txt = document.createTextNode('jbakjbkj')
+    // div.appendChild(txt)
+    let p = document.querySelector('#res')
+    let txt =  document.createTextNode(fnArr)
+    p.appendChild(txt)
+
+
 
 }
 
